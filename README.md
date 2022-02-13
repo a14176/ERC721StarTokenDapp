@@ -1,5 +1,5 @@
-# ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps
-**PROJECT: Decentralized Star Notary Service Project** - For this project, you will create a DApp by adding functionality with your smart contract and deploy it on the public testnet.
+# ERC721 Star Token
+This DApp allows interaction with the newly created ERC721 Star Token Contract that has been deployed on to the public rinkeby testnet.
 
 * Truffle v5.4.33 (core: 5.4.33)
 * Ganache v7.0.1
@@ -17,7 +17,7 @@
 truffle migrate --reset --network rinkeby
 ```
 
-### Deploying 'StarNotary'
+### Deploying 'StarNotary' to the rinkeby network
 - transaction hash:  0xbc26e0826fe94db23338125aa753b1884b8d3d5510936693de97a1a20eff6a72
 - Blocks: 1            Seconds: 12
 - contract address:    0x62F912C4E5C40A678701B927Bf7E9b8d1500C4EF
@@ -34,11 +34,7 @@ truffle migrate --reset --network rinkeby
 - Total cost:          0.02277323 ETH
 
 ---
-### DEFAULT README
-This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
-
-
-### Dependencies
+### Installation & Dependencies
 For this project, you will need to have:
 1. **Node and NPM** installed - NPM is distributed with [Node.js](https://www.npmjs.com/get-npm)
 ```bash
@@ -55,14 +51,14 @@ npm -v
 npm uninstall -g truffle
 # Install
 npm install -g truffle
-# Specify a particular version
+# OR Specify a particular version
 npm install -g truffle@5.0.2
 # Verify the version
 truffle version
 ```
 
 
-2. **Metamask: 5.3.1** - If you need to update Metamask just delete your Metamask extension and install it again.
+2. **Metamask: ** - If you need to update Metamask just delete your Metamask extension and install it again.
 
 
 3. [Ganache](https://www.trufflesuite.com/ganache) - Make sure that your Ganache and Truffle configuration file have the same port.
@@ -159,12 +155,3 @@ compilers: {
     // docker: true,
     // ...
 ```
-
-## Raise a PR or report an Issue
-1. Feel free to raise a [Pull Request](https://github.com/udacity/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/pulls) if you find a bug/scope of improvement in the current repository. 
-
-2. If you have suggestions or facing issues, you can log in issue. 
-
----
-
-Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip)
