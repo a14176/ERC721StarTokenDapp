@@ -1,9 +1,41 @@
-# ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps - Project Starter 
+# ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps
 **PROJECT: Decentralized Star Notary Service Project** - For this project, you will create a DApp by adding functionality with your smart contract and deploy it on the public testnet.
 
-### ToDo
-This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
+* Truffle v5.4.33 (core: 5.4.33)
+* Ganache v7.0.1
+* Solidity v0.5.16 (solc-js)
+* Node v16.13.1
+* Web3.js v1.5.3
+* OpenZeppelin version: 2.3.0
+* Token Name: Star Token
+* Token Symbol: STA
+* Token Address: 0x62F912C4E5C40A678701B927Bf7E9b8d1500C4EF
 
+
+### Deploy contract to rinkeby
+```bash
+truffle migrate --reset --network rinkeby
+```
+
+### Deploying 'StarNotary'
+- transaction hash:  0xbc26e0826fe94db23338125aa753b1884b8d3d5510936693de97a1a20eff6a72
+- Blocks: 1            Seconds: 12
+- contract address:    0x62F912C4E5C40A678701B927Bf7E9b8d1500C4EF
+- block number:        10161497
+- block timestamp:     1644767745
+- account:             0xeB50058CfFDF8f25830884fac1F890E479BbfFa4
+- balance:             0.27650377
+- gas used:            2277323 (0x22bfcb)
+- gas price:           10 gwei
+- value sent:          0 ETH
+- total cost:          0.02277323 ETH
+- Saving migration to chain.
+- Saving artifacts
+- Total cost:          0.02277323 ETH
+
+---
+### DEFAULT README
+This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
 
 
 ### Dependencies
